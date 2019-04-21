@@ -14,7 +14,8 @@ from minio_helpers import minio_connection_helpers
 
 class MinioClient(object):
     """
-        MinioClient Class
+        MinioClient Class. Class objects will hold connection to the
+        Minio service and can be used to interact with buckets and objects
     """
 
     ###

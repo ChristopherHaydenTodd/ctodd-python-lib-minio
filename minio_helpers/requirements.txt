@@ -1,2 +1,2 @@
-minio
-simplejson
+minio>=4.0.11
+simplejson>=3.16.0
