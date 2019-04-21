@@ -93,7 +93,7 @@ class MinioClient(object):
 
 ### [minio_connection_helpers.py](https://github.com/ChristopherHaydenTodd/ctodd-python-lib-minio/blob/master/minio_helpers/minio_connection_helpers.py)
 
-This library is used to interact with Minio object storage.
+This library is used to interact with Minio object storage. Functions establish a connection to the Minio service that can be used to interact with the service and pass to the other helper functions
 
 Functions:
 

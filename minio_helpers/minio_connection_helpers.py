@@ -1,8 +1,10 @@
 """
     Purpose:
-        Minio Object Storage General Helpers.
+        Minio Object Storage Connection Helpers.
 
-        This library is used to interact with Minio object storage.
+        This library is used to interact with Minio object storage. Functions establish
+        a connection to the Minio service that can be used to interact with the service
+        and pass to the other helper functions
 """
 
 # Python Library Imports
@@ -47,7 +49,6 @@ def connect_to_minio(minio_url, access_key=None, secret_key=None, secure=False):
         raise err
 
     return minio_client
-
 
 
 def build_minio_url(minio_host, minio_port=9000):
