@@ -1,8 +1,9 @@
 """
     Purpose:
-        Minio Object Storage General Helpers.
+        Minio Object Storage Bucket Helpers.
 
-        This library is used to interact with Minio object storage.
+        This library is used to interact with Minio object storage. Will handle
+        functions used to interact with buckets (creating, downloading, finding, etc)
 """
 
 # Python Library Imports
